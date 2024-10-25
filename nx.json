@@ -5,18 +5,13 @@
     "production": ["default"],
     "sharedGlobals": []
   },
-  "nxCloudId": "671b5df5164c2117570b6972",
+  "nxCloudId": "671b6182bb9080c0a7723a6e",
   "plugins": [
     {
       "plugin": "@nx/js/typescript",
       "options": {
-        "typecheck": {
-          "targetName": "typecheck"
-        },
-        "build": {
-          "targetName": "build",
-          "configName": "tsconfig.lib.json"
-        }
+        "typecheck": { "targetName": "typecheck" },
+        "build": { "targetName": "build", "configName": "tsconfig.lib.json" }
       }
     }
   ]
